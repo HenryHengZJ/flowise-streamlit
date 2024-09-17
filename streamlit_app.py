@@ -3,10 +3,10 @@ from flowise import Flowise, PredictionData
 import json
 
 # Flowise app base url
-base_url = "https://your-flowise-url.com"
+base_url = st.secrets["APP_URL"] or "https://your-flowise-url.com"
 
 # Chatflow/Agentflow ID
-flow_id = "abc"
+flow_id = st.secrets["FLOW_ID"] or "abc"
 
 # Show title and description.
 st.title("💬 Flowise Streamlit Chat")
