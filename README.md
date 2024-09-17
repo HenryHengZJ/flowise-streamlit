@@ -1,4 +1,4 @@
-# 💬 Chatbot template
+# 💬 Flowise Streamlit Chat
 
 A simple Streamlit app that shows how to build a chatbot using Flowise Python SDK
 
